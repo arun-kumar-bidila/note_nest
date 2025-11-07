@@ -1,16 +1,71 @@
-# lecturenotesapp
+🎥📘 Lecture Notes Summarizer App
 
-A new Flutter project.
+A Flutter app that converts lecture videos into clean summarized text notes.
 
-## Getting Started
+🚀 Overview
 
-This project is a starting point for a Flutter application.
+This application allows users to upload or record a lecture video and automatically generates structured notes from it.
+It is designed for students who want to study faster without rewatching long lecture videos.
 
-A few resources to get you started if this is your first Flutter project:
+🛠️ Tech Stack
+Component	Technology
+Frontend	Flutter (Dart)
+Backend	Python (Nodejs)
+Speech-to-Text	Whisper
+Optional Storage	Cloudinary / MongoDB
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✨ Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Upload or capture lecture video
+
+Extract audio using FFmpeg
+
+Speech-to-text transcription
+
+Smart AI text summarization
+
+Well-structured notes output
+
+Download notes as PDF
+
+Clean UI and easy to use
+
+🔄 How It Works
+Step 1: User selects/records video
+Step 2: Video sent to server
+Step 3: Audio extracted and transcribed to text
+Step 4: Text is summarized & formatted
+Step 5: Final notes returned to app for viewing or downloading
+
+
+🗂️ Folder Structure
+project/
+│── lib/
+│   ├── screens/
+│   ├── widgets/
+│   └── services/
+│
+│── backend/
+│   └── main.py
+│
+│── assets/
+│── README.md
+
+🔧 Setup Instructions
+Flutter Side
+flutter pub get
+flutter run
+
+Backend Side
+npm install
+npm start
+
+🚀 Future Improvements
+
+Slide/OCR text extraction
+
+Question-answer generation from notes
+
+Multi-language support
+
+Topic-based highlights

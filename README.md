@@ -1,20 +1,20 @@
-🎥📘 Lecture Notes Summarizer App
+🎥📘### Lecture Notes Summarizer App
 
 A Flutter app that converts lecture videos into clean summarized text notes.
 
-🚀 Overview
+🚀 ##Overview
 
 This application allows users to upload or record a lecture video and automatically generates structured notes from it.
 It is designed for students who want to study faster without rewatching long lecture videos.
 
-🛠️ Tech Stack
+🛠️## Tech Stack
 Component	Technology
 Frontend	Flutter (Dart)
 Backend	Python (Nodejs)
 Speech-to-Text	Whisper
 Optional Storage	Cloudinary / MongoDB
 
-✨ Features
+✨## Features
 
 Upload or capture lecture video
 
@@ -30,7 +30,7 @@ Download notes as PDF
 
 Clean UI and easy to use
 
-🔄 How It Works
+##🔄 How It Works
 Step 1: User selects/records video
 Step 2: Video sent to server
 Step 3: Audio extracted and transcribed to text
@@ -38,20 +38,8 @@ Step 4: Text is summarized & formatted
 Step 5: Final notes returned to app for viewing or downloading
 
 
-🗂️ Folder Structure
-project/
-│── lib/
-│   ├── screens/
-│   ├── widgets/
-│   └── services/
-│
-│── backend/
-│   └── main.py
-│
-│── assets/
-│── README.md
 
-🔧 Setup Instructions
+##🔧 Setup Instructions
 Flutter Side
 flutter pub get
 flutter run
